@@ -133,7 +133,16 @@
 						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
-			</plugin>
+			</plugin><build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version> <!-- Use a stable version -->
+        </plugin>
+    </plugins>
+</build>
+			
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
