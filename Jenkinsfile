@@ -11,7 +11,7 @@ pipeline
 		stage('code checkout')
 		{
 			steps{
-					git branch: 'dev', url: 'https://github.com/newton9979/maven-webapplication-project-kkfunda.git'
+					git branch: 'qa', url: 'https://github.com/newton9979/maven-webapplication-project-kkfunda.git'
 				 }
 		}
 		
